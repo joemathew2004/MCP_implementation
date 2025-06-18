@@ -15,9 +15,6 @@ MCP is an open protocol that standardizes how applications provide context to la
 
 ### Clients
 - `multi_server_client.py` - Main client that connects to multiple MCP servers and uses Groq API
-- `groq_mcp_client.py` - Client that connects to a single MCP server using Groq API
-- `llm_client.py` - Simple pattern-matching client (no external LLM API)
-- `test_client.py` - Test client that demonstrates the MCP protocol flow
 
 ### Documentation
 - `mcp_flow.md` - Detailed explanation of how MCP works
@@ -26,7 +23,7 @@ MCP is an open protocol that standardizes how applications provide context to la
 ### Utilities
 - `start_servers.bat` - Batch file to start all servers on different ports
 - `.env` - Environment file for API keys (not included in repository)
-- `requirements_groq.txt` - Dependencies for Groq integration
+- `requirements.txt` - Dependencies for Groq integration
 
 ## Getting Started
 
